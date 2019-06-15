@@ -4156,6 +4156,34 @@ RPC:
   - ".x"
   tm_scope: source.c
   language_id: 1031374237
+Ballerina:
+  tm_scope: source.ballerina
+  ace_mode: text
+  color: "#FF5000"
+  language_id: 720859680
+
+RPGLE:
+  type: programming
+  extensions:
+  - ".rpg"
+  - ".rpgle"
+  - ".sqlrpgle"
+  - ".cobol"
+  - ".cpy"
+  tm_scope: source.rpgle
+  # celtic blue
+  color: "#FF5001"
+  #TODO: Once tmlanguage & tmtheme are solid, import into ace, the web-based editor.
+  #TODO:  
+  #TODO: Testing can be done online: https://ace.c9.io/tool/mode_creator.html
+  #TODO: I picked one of the sources from RPGMap as an RPG example:
+  #TODO:   https://github.com/kskuhlman/RpgMap/blob/master/src/RPGMAPVAL.t.RPGLE
+  #ace_mode: rpgle
+  #TODO: Codemirrror is another OSS web ide.
+  #TODO:   https://github.com/codemirror/CodeMirror/
+  #u
+    #TODO: what is? codemirror_mode: rpgle
+    #TODO: what is? codemirror_mime_type: text/x-rpgle
 RPM Spec:
   type: data
   tm_scope: source.rpm-spec
